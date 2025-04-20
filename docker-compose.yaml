@@ -3,7 +3,7 @@ version: '3'
 services:
   base: &base
     build:
-      context: .
+      context: /home/wanderson/chatwoot-3.16
       dockerfile: Dockerfile  # Usando o Dockerfile que copia seu código local
     env_file: .env
     volumes:
